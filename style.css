@@ -1,0 +1,83 @@
+ body {
+     font-family: Arial, sans-serif;
+
+     text-align: center;
+    
+ }
+
+ #welcomeScreen,
+ #gameScreen {
+     display: none;
+ }
+
+ #board {
+     display: grid;
+     text-align: center;
+     grid-template-columns: repeat(5, 60px);
+     margin-left: 400px;
+     grid-gap: 5px;
+
+     margin: 50px 0px 50px 500px;
+ }
+ select#playerSelect {
+    width: 150px;
+    padding: 10px;
+ }
+
+ .cell {
+     width: 60px;
+
+     height: 60px;
+
+     display: flex;
+
+     align-items: center;
+
+     justify-content: center;
+
+     font-size: 24px;
+
+     background-color: #f0f0f0;
+
+     cursor: pointer;
+ }
+
+ #status {
+    font-size: larger;
+     color: green;
+     margin-top: 20px;
+     margin-bottom: 30px;
+ }
+ h1 {
+    color :blue;
+    margin-bottom: 100px;
+ }
+ h2 {
+    color: blue;
+ }
+
+ .start {
+    background-color: aqua;
+    color: black;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 100px;
+ }
+ .end {
+        background-color: red;
+        width: 150px;
+        color: rgb(244, 244, 244);
+        height: 50px;
+        border: none;
+        margin-left: 20px;
+        
+ }
+ #restartButton {
+    background-color:aqua; 
+    border: none;
+    width: 150px;
+    color :rgb(100, 99, 99);
+    height: 50px;
+    margin-left: 60px;
+ }
